@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StokTakipApp.exe" version="1.0.0.0" publicKeyToken="5dcb31268b66b2ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StokTakipApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StokTakipApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="4994080">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ziVXinScF6VZgyNAAErBryvzWUt5eVrlP4yrCZmej/Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="592416">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oNz5dcfjoUltjljMlyIQtM+RGT5HTSyGighpx2Q63lo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StokTakipApp.exe" size="31712">
+      <assemblyIdentity name="StokTakipApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m2xc1n73BWmej8ry+oeg4sOIFeQxONPYlKPvNZ3opgM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Model1.Context.tt" size="22930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model1.tt" size="25275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="StokTakipApp.exe.config" size="1570">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pfiHitWE6Ks9Zib1yo4w0er03ftxTcCjsnUtxNjFKTw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-O0J7SUM\seker" issuerKeyHash="e8d422677f88b054b220adc2ccdc88e509bf4baa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2Z91iO/PzsoRCRKzPSuX6OpdVnO1e86q4K2vxPcpAA4=</DigestValue></Reference></SignedInfo><SignatureValue>OXGKOMdqo0AbmM4quM6AuEOwoaYgVZsR0152tjkxB8teH50a2P6FKDe9l2AFRB/qjs7hmdeWuRwsDS/5Ob7E8QE7ic8WecyhSGR/gj0HaI1HhRJqGGvO4X/VDdEgmMXmSOM1dUnHuE1awK9wXAubABbGtIcw+8k7H5+cObILuFk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2EuX2bm0NTtb/ihAXNtbS8JLEf0EDR7zSm7ZbaKsC38wTt3HPq8MwF99nz0d84sfcfzTB/O7SvdPc8ugsScxYRL/1ZqhU07Ps2XYGxB+ZevVXWTBm258ikaK37X3Zx8DrQf+n9UFB1rEYh4ET4i6v4JzbsD0j6W+xlMl/KDx41U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0e0029f7c4afade0aace7bb573565deae8972b3db3120911cacecfef88759fd9" Description="" Url=""><as:assemblyIdentity name="StokTakipApp.exe" version="1.0.0.0" publicKeyToken="5dcb31268b66b2ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-O0J7SUM\seker</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bNM6YWaDZS1JquBng54fMq4sva5NvWQXh7HRSMKvaNY=</DigestValue></Reference></SignedInfo><SignatureValue>GaNyNOoMsZoUJ+nIgKR3vpzYF/JC8Qy/uBr/WmDPUzOQy6On9BqVxyZ0gLLbGGFgUhOZ4EFwLjMUKh/8Ps5sxcV+WZMtvmzGEWCKjsyoWKdmpuXKbUhT2oztJlC4FSvYZuBocGYSFk8B4gtaRkGLpZhop5oZLpiptkRHnMUR+HI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2EuX2bm0NTtb/ihAXNtbS8JLEf0EDR7zSm7ZbaKsC38wTt3HPq8MwF99nz0d84sfcfzTB/O7SvdPc8ugsScxYRL/1ZqhU07Ps2XYGxB+ZevVXWTBm258ikaK37X3Zx8DrQf+n9UFB1rEYh4ET4i6v4JzbsD0j6W+xlMl/KDx41U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfkTSidhmM61BhofSwWz6njANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AMABKADcAUwBVAE0AXABzAGUAawBlAHIwHhcNMjUwNDAyMDY0NTUzWhcNMjYwNDAyMTI0NTUzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AMABKADcAUwBVAE0AXABzAGUAawBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANhLl9m5tDU7W/4oQFzbW0vCSxH9BA0e80pu2W2irAt/ME7dxz6vDMBffZ89HfOLH3H80wfzu0r3T3PLoLEnMWES/9WaoVNOz7Nl2BsQfmXr1V1kwZtufIpGit+192cfA60H/p/VBQdaxGIeBE+Iur+Cc27A9I+lvsZTJfyg8eNVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIT95RMgt8i+Ef3vqEAfQ/HQt6hX1R6TS6ePJHjgFWtdIl1MGxuGxgPoJZAhcHPCK5vDXEkbWt8GXRixpJyw33t6HM2aKkUckQVW0g089XzSf3iaDoXnNniJnAJQq2OxEAC/eD2KjWsu6dC7+GUnLJpKnElmHD9tozuE1KgbJ0Y4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
